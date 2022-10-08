@@ -1,1 +1,1 @@
-web: RAILS_ENV=production rake db:migrate && bin/rails server -b 0.0.0.0 -p ${PORT:-3000}
+web: RAILS_ENV=production rake db:migrate && RAILS_ENV=production bin/rails server -b 0.0.0.0 -p ${PORT:-3000}
